@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 1 You and Me · 学习导航</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+  background:#edf6ed;
+  min-height:100vh;
+  padding:20px 16px 48px;
+}
+header{text-align:center;padding:24px 0 18px}
+header h1{font-size:1.5rem;color:#1a2e1a;font-weight:700}
+header p{color:#666;font-size:.9rem;margin-top:5px}
+
+.section{max-width:640px;margin:24px auto 0}
+.sec-head{margin-bottom:12px}
+.sec-title{
+  font-size:1.1rem;font-weight:700;color:#1a1a1a;
+  display:flex;align-items:center;gap:10px;margin-bottom:5px
+}
+.badge{
+  font-size:.72rem;font-weight:600;
+  padding:2px 10px;border-radius:20px;white-space:nowrap;
+}
+.badge-green{background:#c8ebc8;color:#2d6e2d}
+.badge-blue{background:#c8dff5;color:#1a4d8a}
+.badge-yellow{background:#fdf0c0;color:#7a5a00}
+.sec-sub{font-size:.85rem;color:#666;margin-left:2px}
+
+.items{display:flex;flex-direction:column;gap:10px}
+
+.item{
+  background:#fff;
+  border-radius:14px;
+  padding:15px 16px;
+  display:flex;align-items:center;gap:14px;
+  box-shadow:0 2px 8px rgba(0,0,0,.07);
+  text-decoration:none;color:inherit;
+  transition:box-shadow .15s;
+}
+.item:hover{box-shadow:0 4px 16px rgba(0,0,0,.13)}
+
+.num{
+  width:34px;height:34px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1rem;font-weight:700;color:#fff;flex-shrink:0;
+}
+.num-green{background:#3d9e3d}
+.num-blue{background:#3a7fcc}
+
+.item-body{flex:1}
+.item-title{font-size:1rem;font-weight:700;color:#1a1a1a;margin-bottom:2px}
+.item-sub{font-size:.83rem;color:#666;line-height:1.4}
+.arrow{color:#bbb;font-size:1.1rem;flex-shrink:0;padding-left:4px}
+
+/* 对答案 sub-item */
+.sub-wrap{padding-left:22px;margin-top:6px}
+.sub-item{
+  background:#fff;
+  border:1.5px dashed #b0d8b0;
+  border-radius:10px;
+  padding:12px 14px;
+  display:flex;align-items:center;gap:12px;
+  text-decoration:none;color:inherit;
+  transition:box-shadow .15s;
+}
+.sub-item:hover{box-shadow:0 2px 10px rgba(0,0,0,.1)}
+.sub-icon{font-size:.9rem;color:#999;flex-shrink:0;line-height:1}
+.sub-body{flex:1}
+.sub-title{font-size:.95rem;font-weight:700;color:#1a1a1a;margin-bottom:1px}
+.sub-sub{font-size:.8rem;color:#777;line-height:1.4}
+
+/* 备用 items */
+.spare-item{
+  background:#fffbe8;
+  border:1.5px dashed #e0c060;
+  border-radius:12px;
+  padding:14px 16px;
+  display:flex;align-items:center;gap:12px;
+  text-decoration:none;color:inherit;
+  transition:box-shadow .15s;
+}
+.spare-item:hover{box-shadow:0 2px 10px rgba(200,160,0,.15)}
+.spare-body{flex:1}
+.spare-title{font-size:.95rem;font-weight:700;color:#6b4e00;margin-bottom:2px}
+.spare-sub{font-size:.82rem;color:#8a7040;line-height:1.4}
+.spare-arrow{color:#c09040;font-size:1rem;flex-shrink:0;padding-left:4px}
+
+footer{text-align:center;color:#aaa;font-size:.78rem;margin-top:36px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Unit 1 · You and Me</h1>
+  <p>人教版（2024新版）七年级上册 &nbsp;·&nbsp; 绮绮&amp;天天专用</p>
+</header>
+
+<!-- 周内当天 -->
+<div class="section">
+  <div class="sec-head">
+    <div class="sec-title">周内当天 <span class="badge badge-green">周一～周五</span></div>
+    <div class="sec-sub">放学回家按顺序来：先复习今天学的，再预习明天的。</div>
+  </div>
+  <div class="items">
+    <a class="item" href="./u1cards/">
+      <div class="num num-green">1</div>
+      <div class="item-body">
+        <div class="item-title">翻翻卡 · 复习</div>
+        <div class="item-sub">说完才能翻卡，自动对比你和原音，没说好进错卡重刷</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <div>
+      <a class="item" href="./u1sheet/">
+        <div class="num num-green">2</div>
+        <div class="item-body">
+          <div class="item-title">作业单 · 复习词块</div>
+          <div class="item-sub">今天的笔头作业，在纸上写完</div>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+      <div class="sub-wrap">
+        <a class="sub-item" href="./u1answer/">
+          <span class="sub-icon">└</span>
+          <div class="sub-body">
+            <div class="sub-title">对答案</div>
+            <div class="sub-sub">作业单写完后点这里，对照词块和整句标准答案</div>
+          </div>
+          <span class="arrow" style="color:#bbb">›</span>
+        </a>
+      </div>
+    </div>
+    <a class="item" href="./u1detective/">
+      <div class="num num-green">3</div>
+      <div class="item-body">
+        <div class="item-title">词块侦探 · 预习</div>
+        <div class="item-sub">看中文找词块🎤念出来，找齐逐句跟读，读完有学习单</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+</div>
+
+<!-- 周末 -->
+<div class="section">
+  <div class="sec-head">
+    <div class="sec-title">周末 <span class="badge badge-blue">整单元复习</span></div>
+    <div class="sec-sub">整单元大过关：写句子、写对话、测单词。</div>
+  </div>
+  <div class="items">
+    <a class="item" href="./u1rw1/">
+      <div class="num num-blue">1</div>
+      <div class="item-body">
+        <div class="item-title">仿写句子</div>
+        <div class="item-sub">跟着句型换词写句子，写完🎤念一遍留痕</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="item" href="./u1rw2/">
+      <div class="num num-blue">2</div>
+      <div class="item-body">
+        <div class="item-title">对话仿写</div>
+        <div class="item-sub">按路线图写对话，从句型框到完整对话，念完有学习单</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="item" href="./u1rw3/">
+      <div class="num num-blue">3</div>
+      <div class="item-body">
+        <div class="item-title">文章仿写</div>
+        <div class="item-sub">跟着 Pauline 和 Peter 的帖子，写一篇自己的自我介绍</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+    <a class="item" href="./u1check/">
+      <div class="num num-blue">4</div>
+      <div class="item-body">
+        <div class="item-title">自助听写</div>
+        <div class="item-sub">看中文写英文，全部默完对答案+🎤念</div>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+  </div>
+</div>
+
+<!-- 备用 -->
+<div class="section">
+  <div class="sec-head">
+    <div class="sec-title">备用 <span class="badge badge-yellow">清单之外</span></div>
+    <div class="sec-sub">不占每天的时间，需要时才点开。</div>
+  </div>
+  <div class="items">
+    <a class="spare-item" href="./u1spell/">
+      <div class="spare-body">
+        <div class="spare-title">单词拼写</div>
+        <div class="spare-sub">词表平铺，不熟的点进去拼，拼完🎤念一遍</div>
+      </div>
+      <span class="spare-arrow">›</span>
+    </a>
+    <a class="spare-item" href="./u1split/">
+      <div class="spare-body">
+        <div class="spare-title">句子拆解</div>
+        <div class="spare-sub">课堂上会和老师一起拆，课后想再看就点这里</div>
+      </div>
+      <span class="spare-arrow">›</span>
+    </a>
+    <a class="spare-item" href="./u1dict/">
+      <div class="spare-body">
+        <div class="spare-title">词典</div>
+        <div class="spare-sub">查 Unit 1 所有单词：音标、中文、音节，可听发音</div>
+      </div>
+      <span class="spare-arrow">›</span>
+    </a>
+  </div>
+</div>
+
+<footer>Unit 1 &nbsp;·&nbsp; 绮绮&amp;天天专用 &nbsp;·&nbsp; 鸠摩罗什出品</footer>
+</body>
+</html>
